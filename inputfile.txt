@@ -1,0 +1,20 @@
+"ABC/*AABC*/ABC"
+/*ABC"ABC"ABC*/
+"ABC\"ABC'
+"123"
+123+567=676
+/*dfsgdfgdfgdf
+fghgf*/
+"Sdfasda"//CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+//CCCCCCCCCCCCCCCCCCCCCCCCCc
+'s'
+123.234e+234
+-123.e+5
+public static  void analyzeTokens() { 
+        tokens = getTokens();
+        System.out.println("Lexical tokens:");
+        for (int i = 0; i < tokens.size(); i++) {
+            System.out.println(identifyToken(tokens.get(i)) + tokens.get(i));
+        }
+
+    }
